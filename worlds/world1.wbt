@@ -11,3 +11,15 @@ TexturedBackgroundLight {
 }
 Floor {
 }
+Solid {
+  children [
+    Shape {
+      appearance DEF COLOR1 PBRAppearance {
+      }
+      geometry DEF SIZE1 Cylinder {
+        height 0.1
+        radius 0.05
+      }
+    }
+  ]
+}
